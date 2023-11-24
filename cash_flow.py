@@ -20,7 +20,7 @@ class Participant:
 def printDebtSettlementTransactions(settlementTransactions, numParticipants, participants):
 
     # Print header for the debt settlement transactions
-    print("\nThe transactions for settling debts are as follows: \n")
+    print("\nThe transactions are as follows: \n")
     
     for i in range(numParticipants):
         for j in range(numParticipants):
@@ -36,7 +36,7 @@ def printDebtSettlementTransactions(settlementTransactions, numParticipants, par
                     settlementTransactions[i][j]['amount'] -= settlementTransactions[j][i]['amount']
                     settlementTransactions[j][i]['amount'] = 0
                     # Print the transaction details
-                    print(participants[i].name + " pays Rs" + str(settlementTransactions[i][j]['amount']) + " to " + participants[j].name + " via " + settlementTransactions[i][j]['mode'])
+                    print(participants[i].name + " pays Rs" + str(settlementTransactions[i][j]['amount']) + " to " + participants[j].name + " through " + settlementTransactions[i][j]['mode'])
 
                 elif settlementTransactions[i][j]['amount'] == settlementTransactions[j][i]['amount']:
 
@@ -48,15 +48,15 @@ def printDebtSettlementTransactions(settlementTransactions, numParticipants, par
                     settlementTransactions[i][j]['amount'] = 0
 
                     # Print the transaction details
-                    print(participants[j].name + " pays Rs " + str(settlementTransactions[j][i]['amount']) + " to " + participants[i].name + " via " + settlementTransactions[j][i]['mode'])
+                    print(participants[j].name + " pays Rs " + str(settlementTransactions[j][i]['amount']) + " to " + participants[i].name + " through " + settlementTransactions[j][i]['mode'])
 
             elif settlementTransactions[i][j]['amount'] != 0:
                 # Print the transaction details for one-way transactions
-                print(participants[i].name + " pays Rs " + str(settlementTransactions[i][j]['amount']) + " to " + participants[j].name + " via " + settlementTransactions[i][j]['mode'])
+                print(participants[i].name + " pays Rs " + str(settlementTransactions[i][j]['amount']) + " to " + participants[j].name + " through " + settlementTransactions[i][j]['mode'])
 
             elif settlementTransactions[j][i]['amount'] != 0:
                 # Print the transaction details for one-way transactions
-                print(participants[j].name + " pays Rs " + str(settlementTransactions[j][i]['amount']) + " to " + participants[i].name + " via " + settlementTransactions[j][i]['mode'])
+                print(participants[j].name + " pays Rs " + str(settlementTransactions[j][i]['amount']) + " to " + participants[i].name + " through " + settlementTransactions[j][i]['mode'])
             
             # Reset transaction amounts to 0 after settling debts
             settlementTransactions[i][j]['amount'] = 0
@@ -256,7 +256,7 @@ print("Transactions can take place in any sequence.")
 
 for i in range(numTransactions):
 
-    print(str(i) + "th transaction: ", end="")
+    print("Transaction "+str(i+1)+" : " , end="")
 
     debtor, creditor, amount = input().split()
     amount = int(amount)
