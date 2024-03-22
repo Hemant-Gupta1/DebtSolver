@@ -1,9 +1,9 @@
-# TechSarathiInternship_CashFlow
+# Cash Flow Minimizer
 
-Github Link:
+# Github Link:
 https://github.com/Hemant-Gupta1/TechSarathiInternship_CashFlow
 
-Features:
+# Features:
 This Python programme simulates a simplified debt settlement system for a group of individuals who 
 conduct transactions with one another. Participants are represented as instances of the "Participant" class, 
 which stores information such as their name, payment modalities, and total transaction amount. 
@@ -14,9 +14,9 @@ their details, and transaction information, and then displays a clear picture of
 their debts through a series of calculated transactions. The code makes use of functions to handle various 
 components of the debt settlement process, which improves readability and modularization.
 
-Technologies used: 
+# Technologies used: 
 Python
 
-Instructions to run
+# Instructions to run
 1. python3 cash_flow.py
 2. Enter inputs depending upon the prompts
