@@ -1,7 +1,7 @@
 # Cash Flow Minimizer
 
 # Github Link:
-https://github.com/Hemant-Gupta1/TechSarathiInternship_CashFlow
+https://github.com/Hemant-Gupta1/Cash-Flow-Minimizer
 
 # Features:
 This Python programme simulates a simplified debt settlement system for a group of individuals who 
