@@ -1,6 +1,6 @@
 # Cash Flow Minimizer
 
-# Github Link:
+# GitHub Link:
 https://github.com/Hemant-Gupta1/Cash-Flow-Minimizer
 
 # Features:
