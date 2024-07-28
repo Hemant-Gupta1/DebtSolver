@@ -1,4 +1,5 @@
-# Cash Flow Minimizer
+# DebtSolver
+
 
 # GitHub Link:
 https://github.com/Hemant-Gupta1/DebtSolver
