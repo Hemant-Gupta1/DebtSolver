@@ -1,0 +1,5 @@
+Efficient Debt Settlement Algorithm: Developed an optimized algorithm to minimize transactions for settling debts among participants, leveraging multiple payment methods and a central participant with universal payment capabilities.
+
+Modular, Object-Oriented Design: Built the application using Python's OOP principles, managing participants, transactions, and data input through modular functions for enhanced code maintainability and scalability.
+
+User-Centric Financial Solution: Delivered an intuitive interface for seamless interaction, enabling real-time debt management with a clear summary of optimal settlement transactions, demonstrating problem-solving in real-world financial systems.
